@@ -25,7 +25,6 @@ export const Header = () => {
         src="/images/teste.svg"
         alt="Logo marcelo Dev"/>
         </Link>
-
         <nav className="flex items-center gap-4 sm:gap-10">
           {NAV_ITENS.map(item => (
             <NavItem {...item} key={item.label} />

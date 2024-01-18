@@ -16,7 +16,7 @@ export const Techss = ({tech}: TechssProps) => {
         <p className="font-medium">{tech.name}</p>
         {tech.icon}
       </div>
-      <span>{relativeTime} de <span className="text-yellow-500 animate-pulse/2">EXP</span></span>
+      <span>{relativeTime} de <span className="text-teal-300 animate-pulse">EXP</span></span>
     </div>
   )
 }
